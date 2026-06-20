@@ -10,13 +10,6 @@ const socialLinks = [
     color: 'from-blue-600 to-blue-700',
   },
   {
-    platform: 'Email',
-    url: 'mailto:obedience.grade10@school.edu',
-    icon: Mail,
-    handle: 'obedience.grade10@school.edu',
-    color: 'from-accent to-accent-dark',
-  },
-  {
     platform: 'Location',
     url: '#',
     icon: MapPin,

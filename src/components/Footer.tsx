@@ -19,6 +19,7 @@ export function Footer() {
             Made with <Heart className="w-4 h-4 text-red-500 animate-pulse inline" /> by Grade 10 - Obedience
           </p>
           <p className="text-white/30 text-xs">S.Y. 2026-2027 | All rights reserved</p>
+          <p>Created By Escalante, Jade A.</p>
         </motion.div>
       </div>
     </footer>
