@@ -68,7 +68,7 @@ export function GallerySection() {
               transition={{ duration: 0.5, delay: index * 0.08 }}
               whileHover={{ scale: 1.02 }}
               onClick={() => openLightbox(index)}
-              className="relative group cursor-pointer rounded-2xl overflow-hidden shadow-lg aspect-[4/3]"
+              className="relative group cursor-pointer rounded-2xl overflow-hidden shadow-lg aspect-[3/4]"
             >
               <img src={item.src} alt={item.title} className="w-full h-full object-cover object-center transition-transform duration-700 group-hover:scale-110" loading="lazy" />
               <div className="absolute inset-0 bg-gradient-to-t from-primary-dark/90 via-primary-dark/20 to-transparent opacity-0 group-hover:opacity-100 transition-all duration-500 flex flex-col justify-end p-6">
@@ -109,7 +109,7 @@ export function GallerySection() {
               animate={{ opacity: 1, scale: 1 }}
               exit={{ opacity: 0, scale: 0.8 }}
               transition={{ type: 'spring', stiffness: 300, damping: 30 }}
-              className="w-full max-w-[95vw] max-h-[90vh] aspect-[4/3]"
+              className="w-full max-w-[95vw] max-h-[90vh] aspect-[3/4]"
               onClick={(e) => e.stopPropagation()}
             >
               <div className="relative w-full h-full overflow-hidden rounded-lg shadow-2xl bg-black">
