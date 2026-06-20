@@ -7,7 +7,7 @@ export const officers: Officer[] = [
     role: 'Class Adviser',
     roleShort: 'Adviser',
     motto: 'Ang magandang edukasyon ay kayang magbago ng buhay ng isang tao. Ang mabuting guro ay kayang magbago ng lahat.',
-    image: 'src/images/moto-sir_bay.png',
+    image: new URL('../images/moto-sir_bay.png', import.meta.url).href,
     isAdviser: true,
   },
   {
@@ -16,7 +16,7 @@ export const officers: Officer[] = [
     role: 'President',
     roleShort: 'President',
     motto: "Don't think too much, be happy.",
-    image: 'src/images/moto-christine.png',
+    image: new URL('../images/moto-christine.png', import.meta.url).href,
   },
   {
     id: 'vice-president',
@@ -24,7 +24,7 @@ export const officers: Officer[] = [
     role: 'Vice President',
     roleShort: 'Vice Pres',
     motto: "don't follow ur dreams, follow me on ig ;))",
-    image: 'src/images/moto-marky.png',
+    image: new URL('../images/moto-marky.png', import.meta.url).href,
   },
   {
     id: 'secretary',
@@ -32,7 +32,7 @@ export const officers: Officer[] = [
     role: 'Secretary',
     roleShort: 'Secretary',
     motto: 'ang goal dis year ay maging masarap lang',
-    image: 'src/images/moto-rhea.png',
+    image: new URL('../images/moto-rhea.png', import.meta.url).href,
   },
   {
     id: 'treasurer',
@@ -40,7 +40,7 @@ export const officers: Officer[] = [
     role: 'Treasurer',
     roleShort: 'Treasurer',
     motto: 'Let Go and Let God',
-    image: 'src/images/moto-faith.png',
+    image: new URL('../images/moto-faith.png', import.meta.url).href,
   },
   {
     id: 'auditor',
@@ -48,7 +48,7 @@ export const officers: Officer[] = [
     role: 'Auditor',
     roleShort: 'Auditor',
     motto: 'Make yourself proud, not just to impress others.',
-    image: 'src/images/moto-neil.png',
+    image: new URL('../images/moto-neil.png', import.meta.url).href,
   },
   {
     id: 'pio',
@@ -56,7 +56,7 @@ export const officers: Officer[] = [
     role: 'Public Information Officer',
     roleShort: 'P.I.O',
     motto: 'Dream big, achieve bigger.',
-    image: 'src/images/moto-carlo.png',
+    image: new URL('../images/moto-carlo.png', import.meta.url).href,
   },
   {
     id: 'po1',
@@ -64,7 +64,7 @@ export const officers: Officer[] = [
     role: 'Peace Officer #1',
     roleShort: 'P.O. #1',
     motto: 'di bale ng tamad, di naman pagod',
-    image: 'src/images/moto-gervic.png',
+    image: new URL('../images/moto-gervic.png', import.meta.url).href,
   },
   {
     id: 'po2',
@@ -72,7 +72,7 @@ export const officers: Officer[] = [
     role: 'Peace Officer #2',
     roleShort: 'P.O. #2',
     motto: 'pinaka masarap sa obedience',
-    image: 'src/images/moto-angel.png',
+    image: new URL('../images/moto-angel.png', import.meta.url).href,
   },
   {
     id: 'co-president',
@@ -80,7 +80,7 @@ export const officers: Officer[] = [
     role: 'Co-President',
     roleShort: 'Co-Pres',
     motto: 'Likha ng isip, hatid ng teknolohiya.',
-    image: 'src/images/moto-jade.png',
+    image: new URL('../images/moto-jade.png', import.meta.url).href,
   },
   {
     id: 'editor',
@@ -88,6 +88,6 @@ export const officers: Officer[] = [
     role: 'Editor',
     roleShort: 'Editor',
     motto: 'Yearn. Learn. Grow',
-    image: 'src/images/moto-denise.png',
+    image: new URL('../images/moto-denise.png', import.meta.url).href,
   },
 ];
