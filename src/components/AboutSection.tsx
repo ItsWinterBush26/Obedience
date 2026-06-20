@@ -3,6 +3,7 @@ import { useScrollAnimation } from '@/hooks/useScrollAnimation';
 import { useCountUp } from '@/hooks/useCountUp';
 import { stats } from '@/data/stats';
 import { BookOpen, Users, Heart } from 'lucide-react';
+import logo from '@/images/logo.png';
 
 const iconMap: Record<string, React.ReactNode> = {
   'Officers': <Users className="w-6 h-6" />,
@@ -86,7 +87,7 @@ export function AboutSection() {
           >
             <div className="relative rounded-3xl overflow-hidden shadow-2xl shadow-primary/20">
               <img
-                src="src/images/logo.png"
+                src={logo}
                 alt="Obedience Class Logo"
                 className="w-full h-auto object-cover"
               />

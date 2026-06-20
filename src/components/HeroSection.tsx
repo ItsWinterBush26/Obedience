@@ -1,6 +1,7 @@
 import { useRef, useEffect } from 'react';
 import { motion, useScroll, useTransform } from 'framer-motion';
 import { ChevronDown } from 'lucide-react';
+import logo from '@/images/logo.png';
 
 export function HeroSection() {
   const containerRef = useRef<HTMLDivElement>(null);
@@ -158,7 +159,7 @@ export function HeroSection() {
             className="absolute inset-0 rounded-full border-2 border-dashed border-accent/30"
           />
           <div className="absolute inset-2 bg-white rounded-full flex items-center justify-center shadow-2xl shadow-black/30">
-              <img src="src/images/logo.png"></img>
+              <img src={logo} alt="Obedience logo" className="w-24 h-24 object-contain" />
           </div>
           {/* Decorative dots */}
           <motion.div
