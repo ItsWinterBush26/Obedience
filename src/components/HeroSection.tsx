@@ -159,9 +159,7 @@ export function HeroSection() {
           />
           <div className="absolute inset-2 bg-white rounded-full flex items-center justify-center shadow-2xl shadow-black/30">
             <span className="font-display text-5xl font-bold">
-              <span className="text-primary">O</span>
-              <span className="text-dark">K</span>
-            </span>
+              <img src="src/images/logo.png"></img>
           </div>
           {/* Decorative dots */}
           <motion.div

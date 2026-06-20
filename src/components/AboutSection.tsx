@@ -86,7 +86,7 @@ export function AboutSection() {
           >
             <div className="relative rounded-3xl overflow-hidden shadow-2xl shadow-primary/20">
               <img
-                src="/mnt/agents/upload/1000143685.jpg"
+                src="src/images/logo.png"
                 alt="Obedience Class Logo"
                 className="w-full h-auto object-cover"
               />
