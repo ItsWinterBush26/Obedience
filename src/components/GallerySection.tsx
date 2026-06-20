@@ -58,7 +58,7 @@ export function GallerySection() {
           </p>
         </motion.div>
 
-        <motion.div style={{ y }} className="columns-1 md:columns-2 lg:columns-3 gap-4 space-y-4">
+        <motion.div style={{ y }} className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
           {galleryItems.map((item: GalleryItem, index: number) => (
             <motion.div
               key={item.id}
@@ -68,7 +68,7 @@ export function GallerySection() {
               transition={{ duration: 0.5, delay: index * 0.08 }}
               whileHover={{ scale: 1.02 }}
               onClick={() => openLightbox(index)}
-              className="relative group cursor-pointer break-inside-avoid rounded-2xl overflow-hidden shadow-lg aspect-[4/3]"
+              className="relative group cursor-pointer rounded-2xl overflow-hidden shadow-lg aspect-[4/3]"
             >
               <img src={item.src} alt={item.title} className="w-full h-full object-cover object-center transition-transform duration-700 group-hover:scale-110" loading="lazy" />
               <div className="absolute inset-0 bg-gradient-to-t from-primary-dark/90 via-primary-dark/20 to-transparent opacity-0 group-hover:opacity-100 transition-all duration-500 flex flex-col justify-end p-6">
