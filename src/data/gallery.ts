@@ -4,8 +4,8 @@ export const galleryItems: GalleryItem[] = [
   {
     id: 'sirbay',
     src: new URL('../images/sirbay.jpeg', import.meta.url).href,
-    title: 'Class Adviser',
-    subtitle: 'Adviser.',
+    title: 'Marlon C. Cababay',
+    subtitle: 'Class Adviser.',
   },
 
   {
@@ -41,7 +41,7 @@ export const galleryItems: GalleryItem[] = [
   {
     id: 'clacio',
     src: new URL('../images/michael.jpeg', import.meta.url).href,
-    title: 'Michael L. Clacio',
+    title: 'Michael Jay L. Clacio',
     subtitle: '',
   },
   {
@@ -111,9 +111,21 @@ export const galleryItems: GalleryItem[] = [
     subtitle: '',
   },
   {
+    id: 'juego',
+    src: new URL('../images/einlyn.jpeg', import.meta.url).href,
+    title: 'Einlyn Juego',
+    subtitle: '',
+  },
+  {
     id: 'librada',
     src: new URL('../images/ronald.jpeg', import.meta.url).href,
     title: 'Ronald B. Librada',
+    subtitle: '',
+  },
+  {
+    id: 'morales',
+    src: new URL('../images/jnun.jpeg', import.meta.url).href,
+    title: 'Jnun Loue Morales',
     subtitle: '',
   },
   {
