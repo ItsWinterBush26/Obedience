@@ -3,7 +3,7 @@ import type { GalleryItem } from '@/types';
 export const galleryItems: GalleryItem[] = [
   {
     id: 'sirbay',
-    src: new URL('../images/sir_bay.jpeg', import.meta.url).href,
+    src: new URL('../images/sirbay.jpeg', import.meta.url).href,
     title: 'Class Adviser',
     subtitle: 'Guidance and support from our adviser.',
   },
