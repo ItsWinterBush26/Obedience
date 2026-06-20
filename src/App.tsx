@@ -1,3 +1,4 @@
+import { Analytics } from '@vercel/analytics/react';
 import { useLenis } from '@/hooks/useLenis';
 import { Navigation } from '@/components/Navigation';
 import { HeroSection } from '@/components/HeroSection';
@@ -21,6 +22,7 @@ function App() {
         <ContactSection />
       </main>
       <Footer />
+      <Analytics />
     </div>
   );
 }
