@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { Facebook, Mail, MapPin, ExternalLink } from 'lucide-react';
+import { Facebook, MapPin, ExternalLink } from 'lucide-react';
 
 const socialLinks = [
   {
