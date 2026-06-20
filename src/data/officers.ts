@@ -62,7 +62,7 @@ export const officers: Officer[] = [
     id: 'po1',
     name: 'John Carlo O. Cecilio',
     role: 'Public Information Officer',
-    roleShort: 'P.I.O',
+    roleShort: 'P.O. #1',
     motto: 'Dream big, achieve bigger.',
     image: new URL('../images/moto-carlo.png', import.meta.url).href,
   },
