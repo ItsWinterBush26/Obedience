@@ -109,10 +109,12 @@ export function GallerySection() {
               animate={{ opacity: 1, scale: 1 }}
               exit={{ opacity: 0, scale: 0.8 }}
               transition={{ type: 'spring', stiffness: 300, damping: 30 }}
-              className="max-w-5xl max-h-[85vh] px-4"
+              className="w-full max-w-[90vw] max-h-[85vh] aspect-square px-4"
               onClick={(e) => e.stopPropagation()}
             >
-              <img src={galleryItems[selectedImage].src} alt={galleryItems[selectedImage].title} className="max-w-full max-h-[80vh] object-contain rounded-lg shadow-2xl" />
+              <div className="relative w-full h-full overflow-hidden rounded-lg shadow-2xl">
+                <img src={galleryItems[selectedImage].src} alt={galleryItems[selectedImage].title} className="w-full h-full object-cover object-center" />
+              </div>
               <div className="text-center mt-4">
                 <h3 className="text-white font-display text-2xl font-bold">{galleryItems[selectedImage].title}</h3>
                 <p className="text-white/60">{galleryItems[selectedImage].subtitle}</p>
