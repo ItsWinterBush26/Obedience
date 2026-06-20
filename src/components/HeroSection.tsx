@@ -158,7 +158,6 @@ export function HeroSection() {
             className="absolute inset-0 rounded-full border-2 border-dashed border-accent/30"
           />
           <div className="absolute inset-2 bg-white rounded-full flex items-center justify-center shadow-2xl shadow-black/30">
-            <span className="font-display text-5xl font-bold">
               <img src="src/images/logo.png"></img>
           </div>
           {/* Decorative dots */}
