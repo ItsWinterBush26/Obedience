@@ -68,9 +68,9 @@ export function GallerySection() {
               transition={{ duration: 0.5, delay: index * 0.08 }}
               whileHover={{ scale: 1.02 }}
               onClick={() => openLightbox(index)}
-              className="relative group cursor-pointer break-inside-avoid rounded-2xl overflow-hidden shadow-lg aspect-[4/5]"
+              className="relative group cursor-pointer break-inside-avoid rounded-2xl overflow-hidden shadow-lg aspect-square"
             >
-              <img src={item.src} alt={item.title} className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" loading="lazy" />
+              <img src={item.src} alt={item.title} className="w-full h-full object-cover object-center transition-transform duration-700 group-hover:scale-110" loading="lazy" />
               <div className="absolute inset-0 bg-gradient-to-t from-primary-dark/90 via-primary-dark/20 to-transparent opacity-0 group-hover:opacity-100 transition-all duration-500 flex flex-col justify-end p-6">
                 <motion.div initial={{ y: 20, opacity: 0 }} whileHover={{ y: 0, opacity: 1 }} className="transform">
                   <h4 className="text-white font-display text-xl font-bold">{item.title}</h4>

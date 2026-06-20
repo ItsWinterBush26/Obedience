@@ -5,7 +5,7 @@ export const galleryItems: GalleryItem[] = [
     id: 'sirbay',
     src: new URL('../images/sirbay.jpeg', import.meta.url).href,
     title: 'Class Adviser',
-    subtitle: 'Guidance and support from our adviser.',
+    subtitle: 'Adviser.',
   },
 
   {
@@ -18,13 +18,13 @@ export const galleryItems: GalleryItem[] = [
     id: 'abriol',
     src: new URL('../images/neil.jpeg', import.meta.url).href,
     title: 'Neil Andrew V. Abriol',
-    subtitle: '',
+    subtitle: 'P.I.O',
   },
   {
     id: 'avellana',
     src: new URL('../images/angel.jpeg', import.meta.url).href,
     title: 'Angel R. Avellana',
-    subtitle: '',
+    subtitle: 'Co President',
   },
   {
     id: 'baradia',
@@ -36,7 +36,7 @@ export const galleryItems: GalleryItem[] = [
     id: 'bier',
     src: new URL('../images/marky.jpeg', import.meta.url).href,
     title: 'Marcky M. Bier',
-    subtitle: '',
+    subtitle: 'Secretary',
   },
   {
     id: 'clacio',
@@ -60,7 +60,7 @@ export const galleryItems: GalleryItem[] = [
     id: 'cecilio',
     src: new URL('../images/carlo.jpeg', import.meta.url).href,
     title: 'John Carl Q. Cecilio',
-    subtitle: '',
+    subtitle: 'Protocol Officer',
   },
   {
     id: 'dolor',
@@ -78,23 +78,23 @@ export const galleryItems: GalleryItem[] = [
     id: 'ebona-m',
     src: new URL('../images/gervic.jpeg', import.meta.url).href,
     title: 'Gervic M. Eboña',
-    subtitle: '',
+    subtitle: 'Protocol Officer',
   },
   {
     id: 'efondo',
     src: new URL('../images/faith.jpeg', import.meta.url).href,
     title: 'Wrenchel Faith V. Efondo',
-    subtitle: '',
+    subtitle: 'Auditor',
   },
   {
     id: 'escalante',
     src: new URL('../images/jade.jpeg', import.meta.url).href,
     title: 'Jade A. Escalante',
-    subtitle: '',
+    subtitle: 'Editor',
   },
   {
     id: 'gadil',
-    src: new URL('../images/joy-gadil.jpeg', import.meta.url).href,
+    src: new URL('../images/joy1.jpeg', import.meta.url).href,
     title: 'Joy T. Gadil',
     subtitle: '',
   },
@@ -120,7 +120,7 @@ export const galleryItems: GalleryItem[] = [
     id: 'ocampo',
     src: new URL('../images/denise.jpeg', import.meta.url).href,
     title: 'Denise Joy E. Ocampo',
-    subtitle: '',
+    subtitle: 'Editor',
   },
   {
     id: 'inovero',
@@ -156,13 +156,13 @@ export const galleryItems: GalleryItem[] = [
     id: 'rosalejos',
     src: new URL('../images/rhea.jpeg', import.meta.url).href,
     title: 'Rhea Mae N. Rosalejos',
-    subtitle: '',
+    subtitle: 'Treasurer',
   },
   {
     id: 'rubio',
     src: new URL('../images/aliyah.jpeg', import.meta.url).href,
     title: 'Aliyah Jane R. Rubio',
-    subtitle: '',
+    subtitle: 'President',
   },
   {
     id: 'salome',
@@ -180,7 +180,7 @@ export const galleryItems: GalleryItem[] = [
     id: 'vargas',
     src: new URL('../images/christine.jpeg', import.meta.url).href,
     title: 'Christine G. Vargas',
-    subtitle: '',
+    subtitle: 'Vice President',
   },
   {
     id: 'villapando',
