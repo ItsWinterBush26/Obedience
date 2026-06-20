@@ -1,4 +1,5 @@
 import { useState, useRef, useEffect } from 'react';
+import type { GalleryItem } from '@/types';
 import { motion, AnimatePresence, useScroll, useTransform } from 'framer-motion';
 import { galleryItems } from '@/data/gallery';
 import { X, ChevronLeft, ChevronRight, ZoomIn } from 'lucide-react';
@@ -58,7 +59,7 @@ export function GallerySection() {
         </motion.div>
 
         <motion.div style={{ y }} className="columns-1 md:columns-2 lg:columns-3 gap-4 space-y-4">
-          {galleryItems.map((item, index) => (
+          {galleryItems.map((item: GalleryItem, index: number) => (
             <motion.div
               key={item.id}
               initial={{ opacity: 0, y: 30, scale: 0.9 }}
