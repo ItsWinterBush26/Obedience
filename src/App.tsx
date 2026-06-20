@@ -11,7 +11,7 @@ function App() {
   useLenis();
 
   return (
-    <div className="font-body antialiased bg-light text-text overflow-x-hidden">
+    <div className="font-body antialiased bg-light text-gray-800 overflow-x-hidden">
       <Navigation />
       <main>
         <HeroSection />
