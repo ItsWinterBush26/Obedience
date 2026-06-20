@@ -68,9 +68,9 @@ export function GallerySection() {
               transition={{ duration: 0.5, delay: index * 0.08 }}
               whileHover={{ scale: 1.02 }}
               onClick={() => openLightbox(index)}
-              className="relative group cursor-pointer rounded-2xl overflow-hidden shadow-lg aspect-square"
+              className="relative group cursor-pointer rounded-2xl overflow-hidden shadow-lg aspect-square bg-slate-100"
             >
-              <img src={item.src} alt={item.title} className="w-full h-full object-cover object-center transition-transform duration-700 group-hover:scale-110" loading="lazy" />
+              <img src={item.src} alt={item.title} className="w-full h-full object-contain object-center transition-transform duration-700 group-hover:scale-105" loading="lazy" />
               <div className="absolute inset-0 bg-gradient-to-t from-primary-dark/90 via-primary-dark/20 to-transparent opacity-0 group-hover:opacity-100 transition-all duration-500 flex flex-col justify-end p-6">
                 <motion.div initial={{ y: 20, opacity: 0 }} whileHover={{ y: 0, opacity: 1 }} className="transform">
                   <h4 className="text-white font-display text-xl font-bold">{item.title}</h4>
@@ -112,8 +112,8 @@ export function GallerySection() {
               className="w-full max-w-[90vw] max-h-[85vh] aspect-square px-4"
               onClick={(e) => e.stopPropagation()}
             >
-              <div className="relative w-full h-full overflow-hidden rounded-lg shadow-2xl">
-                <img src={galleryItems[selectedImage].src} alt={galleryItems[selectedImage].title} className="w-full h-full object-cover object-center" />
+              <div className="relative w-full h-full overflow-hidden rounded-lg shadow-2xl bg-black/5">
+                <img src={galleryItems[selectedImage].src} alt={galleryItems[selectedImage].title} className="w-full h-full object-contain object-center" />
               </div>
               <div className="text-center mt-4">
                 <h3 className="text-white font-display text-2xl font-bold">{galleryItems[selectedImage].title}</h3>
