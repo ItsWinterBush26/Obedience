@@ -109,7 +109,7 @@ export function GallerySection() {
               animate={{ opacity: 1, scale: 1 }}
               exit={{ opacity: 0, scale: 0.8 }}
               transition={{ type: 'spring', stiffness: 300, damping: 30 }}
-              className="w-full max-w-[90vw] max-h-[85vh] aspect-[4/5] px-4"
+              className="w-full max-w-[90vw] max-h-[85vh] aspect-[3/4] px-4"
               onClick={(e) => e.stopPropagation()}
             >
               <div className="relative w-full h-full overflow-hidden rounded-lg shadow-2xl">
